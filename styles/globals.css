@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+  @apply bg-slate-900 text-white
+}
+
+input {
+  @apply text-black w-10
+}
+
+.wrapper{
+  @apply flex h-screen
+}
+
+main {
+  @apply bg-gray-700 p-6 rounded-lg text-center
+}
+
+.menu button {
+  @apply p-2 py-1 bg-green-800 m-2
+}
+
+.panel{
+  @apply border-r border-black inline-block relative border-b
+}
+
+.colorBlock{
+  @apply h-4 w-4 float-left border border-r-0 border-black border-b-0 
+}
+
